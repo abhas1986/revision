@@ -13,11 +13,13 @@ permissions:
   contents: read
 
 jobs:
+
   terraform-plan:
 
     runs-on: self-hosted
 
     steps:
+
       - name: Checkout code
         uses: actions/checkout@v4
 
